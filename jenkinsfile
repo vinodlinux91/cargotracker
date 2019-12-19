@@ -18,6 +18,7 @@ pipeline {
         // Jenkins credential id to authenticate to Nexus OSS
         NEXUS_CREDENTIAL_ID = "nexus_artifactory"
 		
+		//add jenkins default build number parameter in pom.xml file : BUILD_NUMBER
     }
     stages {
         stage("clone code") {
