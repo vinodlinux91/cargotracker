@@ -17,6 +17,7 @@ pipeline {
         NEXUS_REPOSITORY = "example_repository"
         // Jenkins credential id to authenticate to Nexus OSS
         NEXUS_CREDENTIAL_ID = "nexus_artifactory"
+		
     }
     stages {
         stage("clone code") {
